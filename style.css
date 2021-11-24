@@ -7,8 +7,19 @@ body{
     min-height: 100px;
     margin-left: 100px;
     margin-top: 80px;
-    background: #000;
+    background: #fff;
 
+}
+.spinner{
+    height: 30px;
+    width: 30px;
+    animation: spinner 0.7s linear infinite;
+}
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+    
 }
 
 .loader{
